@@ -1,0 +1,71 @@
+#banner {
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+#banner h1 {
+  font-size: 40px;
+}
+#banner p {
+  font-size: 20px;
+  color: gray;
+}
+
+#banner .name-highlight {
+  color: orange;
+}
+img {
+  width: 100%;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.half-width:first-child {
+  margin-top: 50px;
+}
+
+#biography {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#biography h2 {
+  font-size: 50px;
+}
+#biography h3 {
+  font-size: 30px;
+}
+
+#biography p {
+  font-size: 20px;
+  color: gray;
+}
+
+#biography .half-width:last-child {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.hire-button {
+  text-decoration: none;
+  background: linear-gradient(#ff4991, #ff4991);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.resume-button {
+  text-decoration: none;
+  background: linear-gradient(#ffc41f, #ffc41f);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
