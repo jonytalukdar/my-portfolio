@@ -14,6 +14,7 @@ section {
 }
 #banner h1 {
   font-size: 40px;
+  margin: 0;
 }
 #banner p {
   font-size: 20px;
