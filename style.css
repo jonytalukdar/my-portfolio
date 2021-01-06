@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #banner {
   background-image: url(images/header-bg.png);
   background-repeat: no-repeat;
@@ -68,4 +72,74 @@ img {
   border-radius: 5px;
   font-size: 18px;
   margin-right: 10px;
+}
+
+#latest-work {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+#latest-work h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#latest-work img {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+.latest-highlight {
+  color: #ff4991;
+}
+
+.third-width {
+  width: 25%;
+  float: left;
+  margin-left: 6%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.third-width h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 128, 0.753);
+}
+
+.third-width p {
+  font-size: 18px;
+  color: gray;
+}
+
+#work-inquiry {
+  background-color: blue;
+  width: 65%;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#work-inquiry h2 {
+  font-size: 40px;
+  color: white;
+  margin-left: 30px;
+}
+
+.lets-button {
+  background-color: #ff4991;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-right: 30px;
+  border-radius: 5px;
 }
