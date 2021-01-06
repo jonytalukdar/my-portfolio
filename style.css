@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+section {
+  padding: 30px 0;
+}
+
 #banner {
   background-image: url(images/header-bg.png);
   background-repeat: no-repeat;
@@ -80,7 +84,8 @@ img {
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #latest-work h2 {
@@ -118,7 +123,16 @@ img {
 }
 
 #work-inquiry {
-  background-color: blue;
+  background-image: linear-gradient(
+    90deg,
+    #372fce 0%,
+    #2323d6 35%,
+    #003cff 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
   width: 65%;
   height: 150px;
   margin: auto;
@@ -135,7 +149,7 @@ img {
 }
 
 .lets-button {
-  background-color: #ff4991;
+  background-color: #ea5858;
   color: white;
   text-decoration: none;
   font-size: 20px;
