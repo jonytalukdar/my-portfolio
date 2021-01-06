@@ -157,3 +157,26 @@ img {
   margin-right: 30px;
   border-radius: 5px;
 }
+
+#stay-connected {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+#stay-connected img {
+  width: 8%;
+  margin: 5px;
+}
+
+#stay-connected h2 {
+  font-size: 25px;
+  color: #2d2d2d;
+  margin-bottom: 5px;
+}
+
+#stay-connected h1 {
+  font-size: 40px;
+  margin: 8px 0;
+  color: #46469b;
+}
