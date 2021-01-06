@@ -21,7 +21,7 @@ section {
   margin: 0;
 }
 #banner p {
-  font-size: 20px;
+  font-size: 16px;
   color: gray;
 }
 
@@ -49,14 +49,14 @@ img {
 }
 
 #biography h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 #biography h3 {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 #biography p {
-  font-size: 20px;
+  font-size: 16px;
   color: gray;
 }
 
@@ -79,7 +79,7 @@ img {
   background: linear-gradient(#ffc41f, #ffc41f);
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 10px;
 }
 
@@ -117,13 +117,13 @@ img {
 }
 
 .third-width h3 {
-  font-size: 25px;
+  font-size: 22px;
   text-transform: capitalize;
   color: #46469b;
 }
 
 .third-width p {
-  font-size: 18px;
+  font-size: 16px;
   color: gray;
 }
 
